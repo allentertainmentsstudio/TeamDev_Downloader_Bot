@@ -1,0 +1,46 @@
+# ============================================================
+#  TeamDev Bot - Render Deployment
+#  https://render.com
+# ============================================================
+#
+#  Steps to deploy on Render:
+#  1. Push this repo to GitHub
+#  2. Go to https://render.com → New → Web Service
+#  3. Connect your GitHub repo
+#  4. Set:
+#       Environment  : Docker
+#       Build CMD    : (auto from Dockerfile)
+#       Start CMD    : python ignite.py
+#  5. Add Environment Variables (same as Koyeb above)
+#  6. Deploy!
+#
+#
+#  render.yaml (optional - place in repo root):
+#  -------------------------------------------------
+#  services:
+#    - type: worker
+#      name: teamdev-bot
+#      env: docker
+#      plan: free
+#      envVars:
+#        - key: BOT_TOKEN
+#          sync: false
+#        - key: YT_API_KEY
+#          sync: false
+#        - key: YT_API_BASE
+#          value: https://yt.teamdev.sbs/api/v1/
+#        - key: TEAM_NAME
+#          value: TeamDev
+#        - key: DEVELOPER_NAME
+#          value: YourName
+#        - key: BOT_USERNAME
+#          value: YourBotUsername
+#        - key: DAILY_DOWNLOAD_LIMIT
+#          value: "3"
+#        - key: FORCE_JOIN_CHANNEL
+#          value: "@YourChannel"
+#        - key: FORCE_JOIN_ENABLED
+#          value: "true"
+#        - key: ADMIN_IDS
+#          sync: false
+# ============================================================

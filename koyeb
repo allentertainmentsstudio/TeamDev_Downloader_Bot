@@ -1,0 +1,23 @@
+# ============================================================
+#  [TeamDev] Bot - Koyeb Deployment
+#  https://app.koyeb.com
+# ============================================================
+#
+#  Steps to deploy on Koyeb:
+#  1. Push this repo to GitHub
+#  2. Go to https://app.koyeb.com → New App → GitHub
+#  3. Select repo and set:
+#       Build method : Dockerfile
+#       Run command  : python ignite.py
+#  4. Add Environment Variables:
+#       BOT_TOKEN            = <your telegram bot token>
+#       YT_API_KEY           = <your api key>
+#       YT_API_BASE          = https://yt.teamdev.sbs/api/v1/
+#       TEAM_NAME            = TeamDev
+#       DEVELOPER_NAME       = YourName
+#       BOT_USERNAME         = YourBotUsername
+#       DAILY_DOWNLOAD_LIMIT = 3
+#       FORCE_JOIN_CHANNEL   = @YourChannel
+#       FORCE_JOIN_ENABLED   = true
+#       ADMIN_IDS            = 123456789
+#  5. Deploy!

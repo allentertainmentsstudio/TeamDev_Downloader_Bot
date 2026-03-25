@@ -1,0 +1,6 @@
+pyTelegramBotAPI #If You Want Latest ==> pyTelegramBotAPI==4.32.0
+python-dotenv
+requests
+pymongo
+Pillow
+playwright
