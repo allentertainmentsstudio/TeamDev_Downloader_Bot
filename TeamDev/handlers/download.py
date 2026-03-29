@@ -194,7 +194,7 @@ def _do_spotify(bot: telebot.TeleBot, chat_id: int, uid: int, lang: str,
             f"{duration_line}"
             f"◇ Format: <code>MP3 · 320kbps</code>\n"
             f"━━━━━━━━━━━━\n"
-            f"<i>Powered by TeamDev</i>"
+            f"<i>Powered by Anuj</i>"
         )
 
         # Delete the waiting/status message
