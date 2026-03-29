@@ -1,14 +1,14 @@
 """
            ───── ୨୧ ─────
-                   TeamDev
+                   Anuj
          ∘₊✧───────────✧₊∘   
   
-   [Copyright ©️ 2026 TeamDev | @TEAM_X_OG All right reserved.]
+   [Copyright ©️ 2026 Anuj | @Anujedits76 All right reserved.]
 
 Project Name: All In One Downloader
 Project Discription: Download From Multiple Platforms Video Such As Terabox, Youtube, instagram, and much more!
 Project Number: 38
-Project By: @MR_ARMAN_08 | @TEAM_X_OG
+Project By: @Anujedits7 | @Anujedits76
 
                    Developer Note:
             Editing, Unauthorised Use, Or This Is Paid Script So Buy It From @MR_ARMAN_08 Then Use It As You Want!
